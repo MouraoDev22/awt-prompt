@@ -1,5 +1,6 @@
-global.prompt = async function(question) {
-  const readline = require("readline");
+import readline from "readline";
+
+export default function prompt(question) {
   const rl = readline.createInterface({
     input: process.stdin,
     output: process.stdout

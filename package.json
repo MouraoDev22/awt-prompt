@@ -2,7 +2,7 @@
   "name": "nprompt",
   "type": "module",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "prompt.js",
   "description": "Simple prompt method for Node.js",
   "author": "Mourão",
   "license": "MIT"
