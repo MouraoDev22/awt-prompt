@@ -15,7 +15,7 @@ Install directly from GitHub:
 npm install github:MouraoDev22/nprompt
 ```
 
-Or from npm (if published):
+Or from npm
 
 ```bash
 npm install nprompt
