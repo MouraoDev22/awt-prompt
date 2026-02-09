@@ -1,4 +1,4 @@
-# Prompt.js
+# Awt-Prompt
 
 **Simple async prompt for Node.js using modern ES modules**
 
@@ -12,13 +12,13 @@ This tiny package gives you a clean, promise based solution that works perfectly
 Install directly from GitHub:
 
 ```bash
-npm install github:MouraoDev22/prompt.js
+npm install github:MouraoDev22/awt-prompt
 ```
 
 Or from npm
 
 ```bash
-npm install prompt.js
+npm install awt-prompt
 ```
 
 ---
@@ -40,7 +40,7 @@ Your project must use ES modules. Add this to your `package.json`:
 ## Quick Start
 
 ```js
-import prompt from 'prompt.js';
+import prompt from 'awt-prompt';
 
 const name = await prompt('What is your name?');
 console.log(`Hello ${name}`);
@@ -53,7 +53,7 @@ The function always returns a **string**.
 ## Working With Numbers
 
 ```js
-import prompt from 'prompt.js';
+import prompt from 'awt-prompt';
 
 const age = Number(await prompt('Your age:'));
 console.log(age);
@@ -64,7 +64,7 @@ console.log(age);
 ## Example With Validation
 
 ```js
-import prompt from 'prompt.js';
+import prompt from 'awt-prompt';
 
 async function getPositiveNumber() {
   let value = Number(await prompt('Enter a number:'));

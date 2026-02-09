@@ -1,5 +1,5 @@
 {
-  "name": "prompt.js",
+  "name": "awt-prompt",
   "version": "1.0.3",
   "type": "module",
   "main": "./prompt.js",
@@ -19,7 +19,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/MouraoDev22/prompt.js.git"
+    "url": "git+https://github.com/MouraoDev22/awt-prompt.git"
   },
   "engines": {
     "node": ">=18"
