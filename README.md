@@ -40,9 +40,9 @@ Your project must use ES modules. Add this to your `package.json`:
 ## Quick Start
 
 ```js
-import prompt from "nprompt";
+import prompt from 'nprompt';
 
-const name = await prompt("What is your name?");
+const name = await prompt('What is your name?');
 console.log(`Hello ${name}`);
 ```
 
@@ -53,9 +53,9 @@ The function always returns a **string**.
 ## Working With Numbers
 
 ```js
-import prompt from "nprompt";
+import prompt from 'nprompt';
 
-const age = Number(await prompt("Your age:"));
+const age = Number(await prompt('Your age:'));
 console.log(age);
 ```
 
@@ -64,13 +64,13 @@ console.log(age);
 ## Example With Validation
 
 ```js
-import prompt from "nprompt";
+import prompt from 'nprompt';
 
 async function getPositiveNumber() {
-  let value = Number(await prompt("Enter a number:"));
+  let value = Number(await prompt('Enter a number:'));
 
   while (isNaN(value) || value <= 0) {
-    value = Number(await prompt("Invalid input. Enter a valid number:"));
+    value = Number(await prompt('Invalid input. Enter a valid number:'));
   }
 
   return value;
