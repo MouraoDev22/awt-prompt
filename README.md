@@ -108,5 +108,3 @@ No setup. No boilerplate. Just ask and get input.
 ## License
 
 MIT License
-
----
